@@ -1,0 +1,1135 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+/* Section Mindesthöhe****************************************************************/
+section{
+  min-height: 100%;
+}
+
+a{
+  text-decoration: none;
+
+}
+/* Listen Config**********************************************************************/
+li{
+  list-style-type: none;
+
+}
+/* Überschriften Config****************************************************************/
+h1,h2,h3,a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size:  40px;
+  padding-top: 2%;
+  margin-bottom: 10px;
+}
+
+
+/* Paragraphen config********************************************************************/
+p{
+  font-family: 'Roboto Slab', serif;
+}
+/* Horizontal line config****************************************************************/
+hr{
+  width: 30px;
+  height: 3px;
+  background:#000000;
+  border: 0;
+  margin: 0 auto 40px auto;
+}
+
+.hr2{
+  width: 200px;
+  height: 3px;
+  background:#000000;
+  border: 0;
+  margin: 0 auto 40px auto;
+}
+.hr3{
+  width: 100px;
+  height: 3px;
+  background:#000000;
+  border: 0;
+  margin: 0 auto 40px auto;
+}
+
+
+
+/* unknown purpose************************************************************************/
+#HeadId, li, img, .fa-bars{
+  transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;
+}
+
+.fa-bars{display: none;}
+
+/* anchor that positions the id reference correctly*****************************************/
+.anchor {
+  display:block;
+  padding-top:0px;
+  margin-top:90px;
+}
+
+ .anchor2 {
+  display:block;
+  padding-top:0px;
+  margin-top:10px;
+}
+
+/* unknown purpose************************************************************************/
+.h3PadEraser{
+padding-top:3%;
+}
+
+
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*******************************************Boxen************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+
+
+/* Standard Box Außen Config ***********Main***Dienste******************************************/
+.boxPerson{
+  width:100%;
+  min-height: 500px;
+ 
+  margin-bottom: 10px;
+  padding-top: 50px;
+}
+
+.boxFirst{
+  width:100%;
+  min-height:230px;
+  background-color: white;
+  padding-top:3%;
+  padding-top: 50px;
+}
+.boxRest{
+  width:100%;
+  min-height:230px;
+  background-color: white;
+  padding-top:3%;
+}
+/* Box Innen Config*/
+.boxGreen{
+  width:50%;
+  height:230px;
+  background-color: #2d7a56;;
+  float: left;
+}
+
+.boxGreenSmall{
+  width:85%;
+  height:320px;
+  background-color: #2d7a56;;
+  float: left;
+  margin-left: 5%;
+}
+
+
+/*#015225*/
+
+.boxWhite{
+  width:50%;
+  height:230px;
+  background-color: white;
+  float: left;
+}
+
+.boxWhiteIntro1{
+  width:15%;
+  height:230px;
+  background-color: white;
+  float: left;
+  padding-left: 2%;
+  padding-top: 5%;
+}
+
+.boxWhiteIntro2{
+  width:60%;
+  height:300px;
+  background-color: white;
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.boxWhiteIntro2 p{
+  margin-top: 0px;
+  margin-bottom: 15px; 
+  margin-right: 5px;
+}
+
+.boxWhiteIntro2 hr3{
+  margin-bottom: 20px; 
+  margin-right: 523px;
+}
+
+.boxWhiteIntro3{
+  width:25%;
+  height:230px;
+  background-color: white;
+  float: left;
+}
+
+.boxWhiteIntro3 p{
+  margin-top: 0px;
+  margin-bottom: 15px; 
+  margin-right: 10px;
+}
+
+.boxWhiteIntro3 hr3{
+  margin-bottom: 20px; 
+  margin-right: 523px;
+}
+
+
+
+
+
+.dialogRed{
+    height:40px;
+    width:150px;
+    margin: 30px -50px;
+    position:relative;
+    top:10%;
+    left:50%;
+    background-color: rgba(104, 6, 6, 0.938);
+
+}
+
+
+
+/* Box Innen Config**********************Main***Kontakt******************************************/
+.bigBox{
+  min-height:500px;
+  width:50%;
+  background-color: white;
+  float: left;
+}
+
+/* Box Außen Config*********************Main****Kontakt******************************************/
+.breitBox{
+  margin-top: 100px;
+  min-height: 95%;
+  width:100%;
+  background-color: white;
+}
+
+
+.borderlineKontakt{
+  border-radius: 0px;
+  border: 3px solid;
+  border-color: #013f1d;
+  background-color: #013f1de0;
+  margin-left: 27%;
+  margin-right: 27%;
+}
+
+/* Box Außen Config*********************Personenvorstellung******************************************/
+.PBreitBox{
+  min-height:700px;
+  width:100%;
+  background-color: white;
+  float: left;
+}
+/* Box Außen Config*********************Personenvorstellung******************************************/
+.PBigBox1{
+  min-height:700px;
+  width:20%;
+  background-color: white;
+  float: left;
+}
+/* Box Außen Config*********************Personenvorstellung******************************************/
+.PBigBox2{
+  min-height:700px;
+  width:70%;
+  background-color: grey;
+  float: left;
+}
+
+/* Box Außen Config*********************Personenvorstellung******************************************/
+.PBigBox3{
+  min-height:700px;
+  width:10%;
+  background-color: blue;
+  float: left;
+}
+
+/* Box Außen Config*********************Personenvorstellung******************************************/
+.PBreitBox2{
+  min-height:500px;
+  width:100%;
+  background-color: pink;
+}
+
+
+
+/* Bilder resize************************************************************************/
+.resize{
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 80px;
+}
+.resize2{
+  max-height: 250px;
+  max-width: 50%;
+
+}
+
+/* Alt Footer Box********************Footer******************************************/
+.footerBox{
+  min-height:70px;
+  width:100%;
+  background-color: #013f1d;
+  z-index: 2;
+}
+
+.NochFragenBox{
+  width:100%;
+  min-height:50px;
+  background-color: white;
+  padding-top: 7%;
+}
+
+.KartenBox{
+  margin-left: 10%;
+  width:80%;
+  min-height:75px;
+  
+/*  padding-top:12%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER Leiste*********************************************************************/
+header{
+  width: 1920px;
+  height: 90px;
+  position: fixed;
+  top: 26px;               /* Abstand */
+  left: 0;
+  background: white;
+  opacity: 1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  z-index: 3;            /* Lvl Priorität*/
+
+}
+
+.head2{
+  width: 1920px;
+  height: 27px;
+  position: fixed;
+  top: 0;               /* Abstand */
+  left: 0;
+  background: #002c14;
+  opacity: 1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  z-index: 3;            /* Lvl Priorität*/
+}
+
+/*#015225*/
+/*#002c14;*/
+
+/* Bild Tristan*****************************************************************/
+#HeadId img{
+  margin-top: 0px;
+  max-width:189px; 
+  height:90px; 
+  float: left;
+  margin-left: 50px;
+  margin-top: 7px;
+}
+#HeadId:hover{
+  opacity: 0.85;
+  }
+
+
+
+/* Bild Telefon***************************************************************/
+#HeadId2{
+  width: 10px;
+  float: right;
+  margin-right:1%;
+  margin-top: 3px;
+
+}
+#HeadId2:hover{
+  opacity: 0.85;
+  }
+
+#HeadId2 img{
+  float: right;
+  width: 20px;
+  height: 20px;
+}
+/* Text Telefon***************************************************************/
+#Telefon p{
+  font-size: 110%;
+  margin-top: 1px;
+  margin-right:300px;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  float: right;
+}
+
+#Telefon2 p{
+  font-size: 110%;
+  margin-top: 1px;
+  margin-right:100px;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  float: right;
+}
+
+/* Text Diensleistungen***************************************************************/
+.TDienste{
+  font-size: 110%;
+  margin-top: 2px;
+  margin-right:20px;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.TDiensteS{
+  font-size: 110%;
+  margin-top: 2px;
+  margin-right:1px;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.TDiensteHeadline{
+  font-size: 150%;
+  margin-top: 2px;
+  margin-right:20px;
+  color: beige;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+}
+
+
+/* Bild Notdienst ***************************************************************/
+#HeadId3{
+  height: 45px;
+  width: 140px;
+  float: right;
+  margin-right:50px;
+  /*padding-top: 5px;*/
+  margin-top: 17px;
+  background-color: rgb(219, 0, 0);
+  border-radius: 1px;
+  border: 3px solid;
+  border-color:black;
+
+
+
+}
+#HeadId3:hover{
+  opacity: 0.85;
+  }
+
+#HeadId3 img{
+
+}
+
+#HeadId3 p{
+  margin-top: 7%;
+}
+
+
+
+/* HEADER Navigationszeile*****************************************************/
+header nav{
+  /*float: right;*/
+  margin-top: 17px;
+  margin-right: 200px;
+}
+
+header nav ul{
+  display: inline-block;
+  list-style-type: none;
+
+  text-align: center;
+  position: relative;
+/*  width: 100%*
+  margin: 0 auto;
+
+/*  left: 1%;
+  padding: 0;*/
+}
+
+header nav ul li{
+  /*Navigationelemente nebeneinander*/
+  float:left;
+  /*Abstand der Navigationelemente*/
+  margin-right: 35px;
+
+}
+
+header nav ul li a{
+  font-size: 15px;
+  color: grey;
+
+}
+
+header nav ul li:hover{
+  padding-top:3px;
+  text-decoration: underline;
+  
+}
+
+header nav ul li a:hover{
+  color: #016830;
+}
+
+.invisible{
+  opacity:0;
+}
+/* MainPage********************************************************************/
+#MainPageId{
+  background: url(Main2.JPG);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ /* background-size: 100%;*/
+  /*opacity: 0.85;*/
+}
+
+#MainPageId h1{
+  margin: 600px auto 0 auto;
+  font-size: 100px;
+  color: white;
+
+
+}
+#MainPageId h2{
+  margin: 0 auto 0 auto;
+  font-size: 50px;
+  color: white;
+  font-size: xx-large;
+}
+#MainPageId img{
+  margin-top: 40px;
+  opacity: 0.7;
+}
+#MainPageId img:hover{
+  opacity:1;
+}
+
+
+/* About***********************************************************************/
+/*
+#aboutId img{
+  width: 500px;
+} */
+
+/*
+#aboutId img:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+
+} */
+
+
+/*#aboutId p{
+  width: auto;
+  margin: 0 auto 0 auto;
+
+} */
+#About img{
+  width: 100%;
+  height: 100%;
+}
+/* Slideshow**************************************************************/
+
+
+/* Dienstleistung**************************************************************/
+#DiensteId img{
+
+}
+
+#DiensteId p{
+  padding-top: 40px;
+}
+
+
+
+/* Footer *********************************************************************/
+
+/*footer {
+  width: 100%;
+  height: 30px;
+  background-color: brown;
+}
+
+
+.foot1{
+  height: 10px;
+  background-color: #337450;
+}
+
+
+footer p{
+  font-size: 14px;
+}
+*/
+
+footer {
+  width: 100%;
+}
+
+footer p{
+
+  font-size: 14px;
+  color: ghostwhite;
+  /*padding-top:30px; */
+  background-color: #002c14;
+} 
+/* Kontakt*********************************************************************/
+#KontaktId p{
+  font-size: 18.5px;
+}
+
+/*
+#KarteId img{
+  width:445px;
+  height:425px;
+}
+*/
+#KarteId img{
+  width:50%;
+  height:40%;
+}
+
+.LastBox{
+  min-height: 90%;
+  width:50%;
+  background-color: white;
+  float: left;
+  
+}
+
+.LastBox2{
+  min-height: 90%;
+  width:50%;
+  background-color: white;
+  float: left;
+  
+}
+
+
+/* Tablets*********************************definierter Breakpoint**************/
+
+@media screen and (max-width: 1024px){
+
+  /* Header Weiß ****************/
+    header{
+      
+      width: 1024px;
+    }
+  /* Logo TJ Busse****************/
+    #HeadId img{
+      width: 189px;
+      height: 90px;
+      margin-top: 0px;
+      margin-left: 2%
+    }
+
+    header nav{
+      /*margin-top: 0; */
+    }
+
+    
+    header nav ul li {
+      /*font-size: 3px;*/
+    }
+
+      /* Notdienst Button ****************/
+   /* #HeadId3{
+      height: 30px;
+      width: 140px;
+      float: right;
+      margin-right:80px;
+      /*padding-top: 5px;
+      margin-top: 10px;
+      background-color: rgb(219, 0, 0);
+      border-radius: 1px;
+      border: 3px solid;
+      border-color:black; 
+    } */
+
+    #HeadId3 p{
+      /*margin-top: 1%;*/
+    }
+  
+    /* Hintegrundbild ****************/
+    #MainPageId{
+    width: 1024px ;
+    height: 20px;
+    }
+
+    .head2{
+      width: 1024px;
+    }
+
+    #MainPageId{
+      background-attachment: scroll;
+  }
+
+    #MainPageId h1{
+      margin-top: 70%;
+      font-size: 60px;
+    }
+
+    .box{
+      width:1024px;
+    }
+
+    #work1{
+      min-height: 0px;
+    }
+
+    #work1 img{
+      width:512px;
+      height:230px;
+    }
+
+    #work3 img{
+      width:512px;
+      height:230px;
+    }
+
+    #work5 img{
+      width:512px;
+      height:230px;
+    }
+
+    #KarteId img{
+      width:360px;
+      height:340px;
+      z-index: -1; 
+      
+    }
+
+    footer {
+      width: 100%;
+      z-index: 2;            /* Lvl Priorität*/
+    }
+
+    .borderlineKontakt{
+      margin-left: 10%;
+      margin-right: 10%;
+    }  
+
+    .breitBox{
+      min-height: 95%;
+      width:1024px;
+      background-color: white;
+    }
+
+    .LastBox{
+      min-height: 95%;
+      width:500px;
+      background-color: white;
+      float: left;
+    }
+}
+
+
+/* Mobile*********************************************************************/
+
+@media screen and (max-width: 480px){
+
+
+  /* Header Weiß ****************/
+  header{
+    width: 480px;
+    height: 60px;
+  }
+
+ /* Logo TJ Busse****************/
+  #HeadId img{
+    width: 120px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+  header nav{
+    margin: 0; 
+    float: none;
+  }
+
+  .fa-bars{
+    font-size: 17px;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    text-align: right;
+    float: right;
+    margin: -25px 30px 0 0;
+  }
+
+  .fa-bars:hover{
+    opacity: 0.5;
+  }
+  
+  header nav ul  {
+    height:0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+  }
+
+  header nav ul.open{
+    height: auto;
+  }
+
+  header nav ul li{
+    width: 100%;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 11px;
+    border-top: 1px  solid #dddddd;
+
+  }
+
+  header nav ul li:hover{
+    background-color: #eeeeee;
+  }
+
+  #HeadId2{
+    width: 30px;
+    float: right;
+    margin-left: 1%;
+  }
+
+  #HeadId2 p{
+    font-size: 3px;
+  }
+
+  #HeadId2 img{
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 1px;
+  }
+
+  #Telefon p{
+    font-size: 110%;
+    margin-top: 1px;
+    margin-right:40px;
+    color: beige;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    float: right;
+  }
+  
+  #Telefon2 p{
+    font-size: 110%;
+    margin-top: 1px;
+    margin-right:20px;
+    color: beige;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    float: right;
+  }
+
+  /* Notdienst Button ****************/
+  #HeadId3{
+    height: 30px;
+    width: 140px;
+    float: right;
+    margin-right: 20px;
+    padding-top: 0px;
+    margin-top: 12px;
+    background-color: rgb(219, 0, 0);
+    border-radius: 1px;
+    border: 3px solid;
+    border-color:black; 
+  } 
+
+  #HeadId3 p{
+    margin-top: 1%;
+  }
+
+  /* Hintegrundbild ****************/
+  #MainPageId{
+    width: 480px;
+  }
+
+  .head2{
+    width: 480px;
+  }
+
+  #MainPageId{
+    background-attachment: scroll;
+  }
+
+  #MainPageId h1{
+    margin:600 auto 0 auto;
+    
+    font-size: 40px;
+  }
+
+  #MainPageId h2{
+    margin: 0 auto 0 auto;
+
+  }
+
+  #PfeilId{
+    display: none;
+  }
+
+  .boxWhiteIntro1{
+    width:480px;
+    height:300px;
+    background-color: white;
+    float: none;
+    margin-top: 50px;
+
+  }
+  
+  .boxWhiteIntro2{
+    width:480px;
+    height:650px;
+    background-color: white;
+    float: none;
+    margin-top: 50px;
+    
+    
+  }
+
+  .boxWhiteIntro3{
+    width:480px;
+    height:410px;
+    background-color: white;
+    float: none;
+    padding-top: 100px;
+
+  }
+
+  .boxGreenSmall{
+    padding-top: 1%;
+    width:90%;
+    height:650px;
+    background-color: #2d7a56;;
+    float: none;
+    margin-top: 20px;
+  }
+
+  .boxWhiteIntro2 p{
+    margin-top: 10px;
+    margin-left: 17px;
+    margin-right: 17px ;
+    text-align: center;
+  }
+
+  .boxWhiteIntro2 hr3{
+    margin-bottom: 20px; 
+    margin-right: 10px;
+  }
+
+  .boxWhiteIntro3 p{
+    margin-top: 0px;
+    margin-bottom: 15px; 
+    margin-right: 10px;
+  }
+  
+  .boxWhiteIntro3 hr3{
+    margin-bottom: 20px; 
+    margin-right: 523px;
+  }
+
+
+  .boxPerson{
+    width:480px;
+    min-height: 1250px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  .boxFirst{
+    width:480px;
+    min-height: 410px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  .boxRest{
+    width:480px;
+    min-height: 410px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+  }
+
+  .boxWhite{
+    width:480px;
+    height:110px;
+    background-color: white;
+    float: none;
+  }
+
+  .boxGreen{
+    width:480px;
+    height:300px;
+    background-color: #2d7a56;;
+    float: none;
+  }
+
+  .TDiensteHeadline{
+    font-size: 150%;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-right:20px;
+    color: beige;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  }
+
+  #work1 img{
+    width:480px;
+    height:110px;
+  }
+
+  #work2 img{
+    width:480px;
+    height:110px;
+    float: right;
+  }
+
+  #work3 img{
+    width:480px;
+    height:110px;
+  }
+
+  #work4 img{
+    width:480px;
+    height:110px;
+  }
+
+  #work5 img{
+    width:480px;
+    height:110px;
+  }
+
+ 
+
+
+
+
+  .NochFragenBox{
+    padding-top: 35px;
+
+    width:480px;
+    min-height:50px;
+    background-color: white;
+  
+  }
+
+  .hr2{
+    width: 200px;
+    height: 3px;
+    background:#000000;
+    border: 0;
+    margin-left: 140px;
+  }
+
+  #KarteId img{
+    width:360px;
+    height:340px;
+    z-index: -1; 
+    
+  }
+
+  footer {
+    width: 100%;
+    z-index: 2;            /* Lvl Priorität*/
+  }
+
+  .borderlineKontakt{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    
+  }  
+
+  .breitBox{
+    margin-top: 10px;
+    min-height: 95%;
+    width:480px;
+    background-color: white;
+  }
+
+  .KartenBox{
+    margin-left: 0px;
+    width:480px;
+    min-height:75px;
+     
+  /*  padding-top:12%; */
+  }
+
+  .LastBox{
+    padding-top: 10px;
+    min-height: 95%;
+    width:480px;
+    background-color: white;
+    float: none;
+  }
+
+  .LastBox2{
+    padding-top: 50px;
+    min-height: 95%;
+    width:50%;
+    background-color: white;
+    float: left;
+  }
+
+  .footerBox{
+    margin-top: 650px;
+    min-height:100px;
+    width:480px;
+    background-color: #013f1d;
+    z-index: 2;
+  }
+
+  footer {
+    width: 480px;
+  }
+
+  #KarteId{
+    width: 480px;
+  }
+
+}
