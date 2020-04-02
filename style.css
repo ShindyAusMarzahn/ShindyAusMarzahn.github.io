@@ -1006,6 +1006,11 @@ footer p{
     height:323px;
   }
 
+  #work6 img{
+    width:1400px;
+    height:323px;
+  }
+
 
 
 
@@ -1025,7 +1030,7 @@ footer p{
     height: 3px;
     background:#000000;
     border: 0;
-    margin-left: 610px;
+    margin-left: 40%;
 
   }
 
@@ -1441,6 +1446,11 @@ footer p{
     height:323px;
   }
 
+  #work6 img{
+    width:1024px;
+    height:323px;
+  }
+
 
 
 
@@ -1460,7 +1470,7 @@ footer p{
     height: 3px;
     background:#000000;
     border: 0;
-    margin-left: 610px;
+    margin-left: 40%;
 
   }
 
@@ -1524,7 +1534,7 @@ footer p{
 
   footer {
     width: 1024px;
-    margin-bottom: 148px;
+    margin-bottom: 0px;
   }
 
   #KarteId{
@@ -1705,6 +1715,16 @@ footer p{
     display: none;
   }
 
+  .TDienste{
+    font-size: 105%;
+    margin-top: 2px;
+    margin-right:20px;
+    color: beige;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    text-align: left;
+    margin-left: 30px;
+  }
+
   .TDiensteS{
     font-size: 150%;
     padding-top: 25px;
@@ -1869,6 +1889,11 @@ footer p{
     height:170px;
   }
 
+  #work6 img{
+    width:740px;
+    height:170px;
+  }
+
 
 
 
@@ -1942,7 +1967,7 @@ footer p{
   }
 
   .footerBox{
-    margin-top: 550px;
+    margin-top: 570px;
     min-height:100px;
     width:740px;
     background-color: #013f1d;
