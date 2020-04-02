@@ -1,3 +1,4 @@
+
 html,body{
   margin: 0;
   padding: 0;
@@ -497,7 +498,6 @@ header nav ul{
   position: relative;
 /*  width: 100%*
   margin: 0 auto;
-
 /*  left: 1%;
   padding: 0;*/
 }
@@ -574,14 +574,12 @@ header nav ul li a:hover{
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
-
 } */
 
 
 /*#aboutId p{
   width: auto;
   margin: 0 auto 0 auto;
-
 } */
 #About img{
   width: 100%;
@@ -608,14 +606,10 @@ header nav ul li a:hover{
   height: 30px;
   background-color: brown;
 }
-
-
 .foot1{
   height: 10px;
   background-color: #337450;
 }
-
-
 footer p{
   font-size: 14px;
 }
@@ -1006,11 +1000,6 @@ footer p{
     height:323px;
   }
 
-  #work6 img{
-    width:1400px;
-    height:323px;
-  }
-
 
 
 
@@ -1030,7 +1019,7 @@ footer p{
     height: 3px;
     background:#000000;
     border: 0;
-    margin-left: 40%;
+    margin-left: 610px;
 
   }
 
@@ -1446,11 +1435,6 @@ footer p{
     height:323px;
   }
 
-  #work6 img{
-    width:1024px;
-    height:323px;
-  }
-
 
 
 
@@ -1470,7 +1454,7 @@ footer p{
     height: 3px;
     background:#000000;
     border: 0;
-    margin-left: 40%;
+    margin-left: 610px;
 
   }
 
@@ -1534,7 +1518,7 @@ footer p{
 
   footer {
     width: 1024px;
-    margin-bottom: 0px;
+    margin-bottom: 148px;
   }
 
   #KarteId{
@@ -1715,16 +1699,6 @@ footer p{
     display: none;
   }
 
-  .TDienste{
-    font-size: 105%;
-    margin-top: 2px;
-    margin-right:20px;
-    color: beige;
-    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
-    text-align: left;
-    margin-left: 30px;
-  }
-
   .TDiensteS{
     font-size: 150%;
     padding-top: 25px;
@@ -1889,11 +1863,6 @@ footer p{
     height:170px;
   }
 
-  #work6 img{
-    width:740px;
-    height:170px;
-  }
-
 
 
 
@@ -1967,7 +1936,7 @@ footer p{
   }
 
   .footerBox{
-    margin-top: 570px;
+    margin-top: 550px;
     min-height:100px;
     width:740px;
     background-color: #013f1d;
