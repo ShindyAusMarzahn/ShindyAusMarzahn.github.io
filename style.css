@@ -674,7 +674,6 @@ footer p{
 
 .IMP1{
   width: 100%;
-  min-height: 70%;
 }
 
 .IMPÜberschrift{
@@ -685,14 +684,13 @@ footer p{
 
 .IMPÜberschrift p{
   margin-left: 10%;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .IMPBox2{
-  margin-top: 5%;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  min-height: 400px;
+  height: 330px;
   width:45%;
   background-color: #2d7a56;
   float: left;
@@ -704,7 +702,6 @@ footer p{
 .IMPBox3{
   margin-left: 2.5%;
   margin-right: 2.5%;
-  min-height: 100%;
   width:45%;
   background-color: #2d7a56;
   float: left;
@@ -713,12 +710,12 @@ footer p{
 
 .IMPBox3 p{
   text-align: left;
+  
 }
 
 .IMPBox4{
   margin-left: 2.5%;
   margin-right: 2.5%;
-  min-height: 100%;
   width:90%;
   background-color: #2d7a56;
   float: left;
