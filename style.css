@@ -673,7 +673,7 @@ footer p{
 /* Impressum*********************************************************************/
 
 .IMP1{
-  width: 100%;
+  width: 1920px;
 }
 
 .IMPÜberschrift{
@@ -724,6 +724,10 @@ footer p{
 
 .IMPBox4 p{
   text-align: left;
+}
+
+.uber{
+  margin-top: 120px;
 }
 
 
@@ -807,7 +811,7 @@ footer p{
   }
 
   #HeadId2 img{
-    width: 27px;
+    width: 20px;
     height: 27px;
     float: right;
     margin-right: 10px;
@@ -821,7 +825,7 @@ footer p{
   }
 
   #HeadId4 img{
-    width: 37px;
+    width: 28px;
     height: 21px;
     float: right;
     margin-right: 10px;
@@ -1166,6 +1170,73 @@ footer p{
     width: 1400px;
     padding-top: 60px;
   }
+
+      /**Impressum**/
+      .IMP1{
+      width: 1400px;
+    }
+
+    .IMPÜberschrift{
+      width: 100%;
+      float: none;
+      color: beige;
+    }
+
+    .IMPÜberschrift p{
+      margin-left: 10%;
+      font-size: 22px;
+    }
+
+    .IMPBox2{
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      height: 400px;
+      width:45%;
+      background-color: #2d7a56;
+      float: left;
+      color: #013f1d;
+      border: 3px solid;
+      
+    }
+
+    .IMPBox3{
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      width:45%;
+      background-color: #2d7a56;
+      float: left;
+      color: beige;
+    }
+
+    .IMPBox3 p{
+      text-align: left;
+      
+    }
+
+    .IMPBox4{
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      width:90%;
+      background-color: #2d7a56;
+      float: left;
+      color: beige;
+    }
+
+    .IMPBox4 p{
+      text-align: left;
+    }
+
+    .footerBoxIMP{
+      min-height:70px;
+      width:1920px;
+      background-color: #013f1d;
+      z-index: 2;
+      margin-top: 15px;
+    }
+
+    .uber{
+      margin-top: 120px;
+    }
 
 }
 
@@ -1607,6 +1678,74 @@ footer p{
     padding-top: 60px;
   }
 
+            /**Impressum**/
+            .IMP1{
+              width: 1024px;
+            }
+        
+            .IMPÜberschrift{
+              width: 100%;
+              float: none;
+              color: beige;
+            }
+        
+            .IMPÜberschrift p{
+              margin-left: 10%;
+              font-size: 22px;
+            }
+        
+            .IMPBox2{
+              margin-left: 2.5%;
+              margin-right: 2.5%;
+              height: 400px;
+              width:45%;
+              background-color: #2d7a56;
+              float: left;
+              color: #013f1d;
+              border: 3px solid;
+              
+            }
+        
+            .IMPBox3{
+              margin-left: 2.5%;
+              margin-right: 2.5%;
+              width:45%;
+              background-color: #2d7a56;
+              float: left;
+              color: beige;
+            }
+        
+            .IMPBox3 p{
+              text-align: left;
+              
+            }
+        
+            .IMPBox4{
+              margin-left: 2.5%;
+              margin-right: 2.5%;
+              width:90%;
+              background-color: #2d7a56;
+              float: left;
+              color: beige;
+            }
+        
+            .IMPBox4 p{
+              text-align: left;
+            }
+
+            .footerBoxIMP{
+              margin-top: 212px;
+              min-height:70px;
+              width:1024px;
+              background-color: #013f1d;
+              z-index: 2;
+            }
+
+            .uber{
+              margin-top: 120px;
+            }
+        
+
 }
 
 
@@ -1707,7 +1846,7 @@ footer p{
   }
 
   #HeadId4 img{
-    width: 33px;
+    width: 25px;
     height: 18px;
     float: right;
     margin-right: 10px;
@@ -2048,6 +2187,79 @@ footer p{
     width: 740px;
   }
 
+
+            /**Impressum**/
+            .IMP1{
+              width: 740px;
+            }
+        
+            .IMPÜberschrift{
+              width: 100%;
+              float: none;
+              color: beige;
+            }
+        
+            .IMPÜberschrift p{
+              margin-left: 5%;
+              font-size: 35px;
+            }
+        
+            .IMPBox2{
+              margin-left: 1.5%;
+              margin-right: 1.5%;
+              height: 530px;
+              width:97%;
+              background-color: #2d7a56;
+              float: none;
+              color: #013f1d;
+              border: 3px solid;
+              margin-top: 5%;
+              
+            }
+
+
+        
+            .IMPBox3{
+              margin-left: 2.5%;
+              margin-right: 2.5%;
+              width:45%;
+              background-color: #2d7a56;
+              float: left;
+              color: beige;
+            }
+        
+            .IMPBox3 p{
+              text-align: left;
+              font-size: 18px;
+            }
+        
+            .IMPBox4{
+              margin-left: 2.5%;
+              margin-right: 2.5%;
+              width:90%;
+              background-color: #2d7a56;
+              float: left;
+              color: beige;
+            }
+        
+            .IMPBox4 p{
+              text-align: left;
+              font-size: 18px;
+            }
+
+            .footerBoxIMP{
+              margin-top: 50px;
+              min-height:70px;
+              width:740px;
+              background-color: #013f1d;
+              z-index: 2;
+            }
+
+            .uber{
+              margin-top: 120px;
+              margin-left: 73%;
+            }
+        
 
 
 
