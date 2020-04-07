@@ -690,13 +690,13 @@ footer p{
 .IMPBox2{
   margin-left: 2.5%;
   margin-right: 2.5%;
-  height: 330px;
+  height: 370px;
   width:45%;
   background-color: #2d7a56;
   float: left;
   color: #013f1d;
   border: 3px solid;
-  
+  margin-top: 2.5%;
 }
 
 .IMPBox3{
@@ -728,6 +728,19 @@ footer p{
 
 .uber{
   margin-top: 120px;
+}
+
+.uber p{
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.footerBoxIMP{
+  min-height:70px;
+  width:1920px;
+  background-color: #013f1d;
+  z-index: 2;
+  margin-top: 150px;
 }
 
 
