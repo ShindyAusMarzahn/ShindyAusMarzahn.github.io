@@ -1251,7 +1251,7 @@ footer p{
 
     .uber p{
       font-size: 70px;
-      margin-left: 5%;
+      margin-left: 6%;
     }
 
     .hr2{
@@ -1470,7 +1470,7 @@ footer p{
 
   .boxWhiteIntro2{
     width:1024px;
-    height:650px;
+    height:710px;
     background-color: white;
     float: none;
     margin-top: 50px;
@@ -1490,7 +1490,7 @@ footer p{
   .boxGreenSmall{
     padding-top: 1%;
     width:90%;
-    height:500px;
+    height:560px;
     background-color: #2d7a56;;
     float: none;
     margin-top: 20px;
@@ -1539,7 +1539,7 @@ footer p{
 
   .boxFirst{
     width:1024px;
-    min-height: 890px;
+    min-height: 867px;
     padding-bottom: 0px;
     margin-bottom: 50px;
     padding-top: 20px;
@@ -1547,7 +1547,7 @@ footer p{
 
   .boxRest{
     width:1024px;
-    min-height: 673px;
+    min-height: 650px;
     padding-bottom: 0px;
     margin-bottom: 50px;
     padding-top: 0;
@@ -1555,7 +1555,7 @@ footer p{
 
   .boxWhite{
     width:1024px;
-    height:323px;
+    height:300px;
     background-color: white;
     float: none;
   }
@@ -1578,33 +1578,33 @@ footer p{
 
   #work1 img{
     width:1024px;
-    height:323px;
+    height:300px;
   }
 
   #work2 img{
     width:1024px;
-    height:323px;
+    height:300px;
     float: right;
   }
 
   #work3 img{
     width:1024px;
-    height:323px;
+    height:300px;
   }
 
   #work4 img{
     width:1024px;
-    height:323px;
+    height:300px;
   }
 
   #work5 img{
     width:1024px;
-    height:323px;
+    height:300px;
   }
 
   #work6 img{
     width:1024px;
-    height:323px;
+    height:300px;
   }
 
 
@@ -1681,7 +1681,7 @@ footer p{
   }
 
   .footerBox{
-    margin-top: 400px;
+    margin-top: 405px;
     min-height:100px;
     width:1024px;
     background-color: #013f1d;
@@ -1943,7 +1943,7 @@ footer p{
   }
 
   .TDienste{
-    font-size: 170%;
+    font-size: 135%;
     margin-top: 2px;
     margin-right:20px;
     color: beige;
@@ -1986,7 +1986,7 @@ footer p{
 
   .boxWhiteIntro2{
     width:768px;
-    height:800px;
+    height:830px;
     background-color: white;
     float: none;
     margin-top: 50px;
@@ -1999,14 +1999,14 @@ footer p{
     height:650px;
     background-color: white;
     float: none;
-    padding-top: 40px;
+    padding-top: 75px;
 
   }
 
   .boxGreenSmall{
     padding-top: 1%;
     width:90%;
-    height:650px;
+    height:690px;
     background-color: #2d7a56;;
     float: none;
     margin-top: 20px;
@@ -2055,7 +2055,7 @@ footer p{
 
   .boxFirst{
     width:768px;
-    min-height: 890px;
+    min-height: 520px;
     padding-bottom: 0px;
     margin-bottom: 50px;
     padding-top: 0px;
@@ -2063,7 +2063,7 @@ footer p{
 
   .boxRest{
     width:768px;
-    min-height: 673px;
+    min-height: 500px;
     padding-bottom: 0px;
     margin-bottom: 50px;
     padding-top: 0;
@@ -2071,14 +2071,14 @@ footer p{
 
   .boxWhite{
     width:768px;
-    height:323px;
+    height:230px;
     background-color: white;
     float: none;
   }
 
   .boxGreen{
     width:768px;
-    height:350px;
+    height:270px;
     background-color: #2d7a56;;
     float: none;
   }
@@ -2094,33 +2094,33 @@ footer p{
 
   #work1 img{
     width:768px;
-    height:323px;
+    height:230px;
   }
 
   #work2 img{
     width:768px;
-    height:323px;
+    height:230px;
     float: right;
   }
 
   #work3 img{
     width:768px;
-    height:323px;
+    height:230px;
   }
 
   #work4 img{
     width:768px;
-    height:323px;
+    height:230px;
   }
 
   #work5 img{
     width:768px;
-    height:323px;
+    height:230px;
   }
 
   #work6 img{
     width:768px;
-    height:323px;
+    height:230px;
   }
 
 
@@ -2197,7 +2197,7 @@ footer p{
   }
 
   .footerBox{
-    margin-top: 600px;
+    margin-top: 602px;
     min-height:100px;
     width:768px;
     background-color: #013f1d;
@@ -2289,6 +2289,10 @@ footer p{
 
             .hr2{
               margin-left: 40%;
+            }
+
+            .hr3{
+              margin-left: 43%;
             }
         
 
