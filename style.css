@@ -666,90 +666,87 @@ footer p{
 
 }
 
-  /*********************************************************************/
-/*********************************************************************/
-/*********************************************************************/
-/*********************************************************************/
-/*********************************************************************/
-/* Impressum*********************************************************************/
 
-.IMP1{
-  width: 1920px;
-}
 
-.IMPÜberschrift{
-  width: 100%;
-  float: none;
-  color: beige;
-}
+    .IMP1{
+      width: 1920px;
+    }
 
-.IMPÜberschrift p{
-  margin-left: 10%;
-  font-size: 22px;
-}
+    .IMPÜberschrift{
+      width: 100%;
+      float: none;
+      color: beige;
+    }
 
-.IMPBox2{
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  height: 370px;
-  width:45%;
-  background-color: #2d7a56;
-  float: left;
-  color: #013f1d;
-  border: 3px solid;
-  margin-top: 2.5%;
-}
+    .IMPÜberschrift p{
+      margin-left: 10%;
+      font-size: 22px;
+    }
 
-.IMPBox3{
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  width:45%;
-  background-color: #2d7a56;
-  float: left;
-  color: beige;
-}
+    .IMPBox2{
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      height: 370px;
+      width:45%;
+      background-color: #2d7a56;
+      float: left;
+      color: #013f1d;
+      border: 3px solid;
+      margin-top: 2.5%;
+    }
 
-.IMPBox3 p{
-  text-align: left;
-  
-}
+    .IMPBox3{
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      width:45%;
+      background-color: #2d7a56;
+      float: left;
+      color: beige;
+    }
 
-.IMPBox4{
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  width:90%;
-  background-color: #2d7a56;
-  float: left;
-  color: beige;
-}
+    .IMPBox3 p{
+      text-align: left;
+      
+    }
 
-.IMPBox4 p{
-  text-align: left;
-}
+    .IMPBox4{
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+      width:90%;
+      background-color: #2d7a56;
+      float: left;
+      color: beige;
+    }
 
-.uber{
-  margin-top: 120px;
-}
+    .IMPBox4 p{
+      text-align: left;
+    }
 
-.uber p{
-  font-size: 50px;
-  margin-bottom: 5px;
-}
+    .uber{
+      margin-top: 120px;
+    }
 
-.footerBoxIMP{
-  min-height:70px;
-  width:1920px;
-  background-color: #013f1d;
-  z-index: 2;
-  margin-top: 150px;
-}
+    .uber p{
+      font-size: 50px;
+      margin-bottom: 5px;
+    }
+
+    .footerBoxIMP{
+      min-height:70px;
+      width:1920px;
+      background-color: #013f1d;
+      z-index: 2;
+      margin-top: 150px;
+    }
+
+    
 
 /*********************************************************************/
 /*********************************************************************/
 /*********************************************************************/
 /***********************************WIDTH**1680***********************/
 /***********************************HEIGHT*768***********************/
-/* HD Laptop**********************************************************/
+/* Desktop Crap**********************************************************/
 
 @media screen and (max-width: 1680px){
 
@@ -1200,16 +1197,16 @@ footer p{
 
     .IMPÜberschrift p{
       margin-left: 10%;
-      font-size: 40px;
+      font-size: 30px;
     }
 
     .IMPBox2{
       margin-left: 2.5%;
       margin-right: 2.5%;
-      height: 550px;
-      width:95%;
+      height: 400px;
+      width:45%;
       background-color: #2d7a56;
-      float: none;
+      float: left;
       color: #013f1d;
       border: 3px solid;
       margin-top: 50px;
@@ -1226,7 +1223,7 @@ footer p{
 
     .IMPBox3 p{
       text-align: left;
-      font-size: 20px;
+      font-size: 15px;
     }
 
     .IMPBox4{
@@ -1240,7 +1237,7 @@ footer p{
 
     .IMPBox4 p{
       text-align: left;
-      font-size: 20px;
+      font-size: 15px;
     }
 
     .footerBoxIMP{
@@ -1248,11 +1245,11 @@ footer p{
       width:1680px;
       background-color: #013f1d;
       z-index: 2;
-      margin-top: 46px;
+      margin-top: 250px;
     }
 
     .uber{
-      margin-top: 200px;
+      margin-top: 130px;
       
     }
 
