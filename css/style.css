@@ -315,6 +315,14 @@
         display: none !important; 
     }
 
+    .headerGreen{
+        display: none !important; 
+    }
+
+    .navW{
+        display: none !important; 
+    }
+
     .Arbeit1 img {
         height: 80%;
         width: 100%;
@@ -337,6 +345,11 @@
         padding: 1em 1em 1em 1em;
     }
 
+    .boxGreen p{
+        padding: 3em 3em 3em 3em;
+        font-size: small;
+    }
+
     .navG2 p{
         padding-left: 30%;
     }
@@ -344,5 +357,13 @@
     .leistungen img{
         
         width: 110%;
+    }
+
+    .header3{
+        text-align: center;
+        font-size: 100%;
+        font-weight:bold;
+        color:grey;
+        padding: 2em 2em 2em 2em;
     }
 }
