@@ -265,6 +265,14 @@
     
 }
 
+/********************** Impressum***********************/
+.impText {
+    /*text-align: center;*/
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 10em;
+}
+
 /************************ Media ************************/
 
 @media (max-width: 1400px) {
@@ -410,5 +418,17 @@
 
     .navG2 p{
         font-size: x-small;
+    }
+
+    .impText{
+        padding-top: 0em;
+    }
+
+    .impText1 {
+        padding-top: 5em;
+    }
+
+    .impText2{
+        padding-top: 2em;
     }
 }
