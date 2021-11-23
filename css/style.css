@@ -296,10 +296,6 @@
         width: 60%;
     }
 
-    /* Über mich, Qualifikationen*/
-    .header2{
-        padding-top: 2em;
-    }
 }
 
 @media (max-width: 992px) {
@@ -340,11 +336,21 @@
     .navbar ul li{
         padding-top: 1em;
         float:left;
-        margin-right: 15px;
+        margin-right: 7px;
+        margin-left: 7px;
     }
 
     .navbar ul{
         padding-left: 0em;
+    }
+
+    /*Hintergrund*/
+    .background{
+        height:25em;
+    }
+
+    .vorstellungOpt{
+        display: none;
     }
 
     /* Arbeitsbilder*/
@@ -366,7 +372,7 @@
     /*Vorstellungstext*/
     .boxGreen p{
         padding: 3em 3em 3em 3em;
-        font-size: small;
+        font-size: x-small;
     }
 
     /* Karte Umkreis*/
