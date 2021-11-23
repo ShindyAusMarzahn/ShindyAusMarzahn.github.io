@@ -96,9 +96,16 @@
     padding-bottom: 1em;
 }
 
+.vorstText{
+    padding-top: 3em;
+}
+
+.qualis{
+    padding-top: 3em;
+}
+
 .boxGreen{
     background-color: #c8e4cc;   
-    
 }
 
 .boxGreen p{
@@ -349,8 +356,20 @@
         height:25em;
     }
 
-    .vorstellungOpt{
-        display: none;
+    .vorstText{
+        padding-top: 1.75em;
+    }
+
+    .header2{
+        font-size: 150%;
+    }
+
+    .qualis{
+        padding-top: 1.5em;
+    }
+
+    .tristanBild img{
+        padding-top: 2em;
     }
 
     /* Arbeitsbilder*/
