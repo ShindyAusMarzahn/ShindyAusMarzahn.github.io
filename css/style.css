@@ -9,7 +9,7 @@
 .row{
     --bs-gutter-x: 0rem;
 }
-/* Grüne NavBar */
+/**************************** Grüne NavBar ****************************/
 .navG{
     background: #002c14;
     height: 1.75em;
@@ -28,7 +28,7 @@
     float: left;
 }
 
-/* Weiße NavBar */
+/**************************** White NavBar ****************************/
 .navW {
     background: white;  
 }
@@ -72,7 +72,7 @@
     height: 60%;
 }
 
-/* Hintergrund */
+/**************************** Hintergrund ****************************/
 .background{
     height:35em;
     background: url(Main2.JPG) ;
@@ -82,7 +82,7 @@
     background-attachment: fixed;
 }
 
-/* Vorstellung*/
+/*************************** Vorstellung***************************/
 .tristanBild img{
     min-height: 95%;
     padding-top: 8em;
@@ -105,7 +105,7 @@
     padding: 3em 3em 3em 3em;
 }
 
-/* Arbeiten */
+/*************************** Arbeiten ****************************/
 .arbeit{
     padding-top: 5em;   
 }
@@ -184,7 +184,7 @@
     align-content: center;
 }
 
-/* Slider */
+/***************************** Slider *****************************/
 .carousel-item{
     height: 32rem;
     background-color: black;
@@ -213,9 +213,9 @@
     opacity: 0.9;
 }
 
-/* Kontakt */
+/*************************** Kontakt ***************************/
 .leistungen{
-   width: 100%;
+    width: 100%;
     height: 34em;
 }
 
@@ -223,6 +223,7 @@
     text-align: center;
 }
 
+/*Ihre gesuchte Leistung ist nicht aufgeführt*/
 .header3{
     text-align: center;
     font-size: 200%;
@@ -231,6 +232,7 @@
     padding: 2em 2em 2em 2em;
 }
 
+/*Karte Umkreis*/
 .leistungen img{
     height: auto;
     width: auto;
@@ -252,8 +254,6 @@
     text-decoration: underline;
 }
 
-
-
 .navG2 p{
     text-align: center;
     color: blanchedalmond;
@@ -261,26 +261,21 @@
     
 }
 
-/* Media */
+/************************ Media ************************/
+
 @media (max-width: 1400px) {
     .notdienst img{
         display: none !important;
     }
 
-    
+    /*Karte Umkreis*/
     .leistungen img{
-        
         width: 100%;
-        padding-top: 5em;
-        padding-bottom: 5em;
-    }
-
-    .navG2 p{
-        
-    }
+    } 
 }    
 
 @media (max-width: 1200px) {
+    /*Arbeitsbilder*/
     .Arbeit1 img {
         height: 10em;
         width: 100%;
@@ -296,28 +291,20 @@
         width: 100%;
     }
 
-    .boxGreen2 p{
-        font-size: 1.5em;
-        font-weight: 600;
-        color: black;
-        padding: 1em 1em 1em 1em;
-    }
-
+    /* Karte Umkreis*/
     .leistungen img{
-        
         width: 60%;
     }
 
+    /* Über mich, Qualifikationen*/
     .header2{
         padding-top: 2em;
     }
-
-
 }
 
 @media (max-width: 992px) {
+    /* Karte Umkreis*/
     .leistungen img{
-        
         width: 70%;
     }
 }
@@ -327,14 +314,40 @@
         display: none !important; 
     }
 
+    /* Green Header*/
     .headerGreen img{
         display: none !important; 
     }
 
-    .navW{
-        display: none !important; 
+    .navG{
+        height: 0.75em;
     }
 
+    .headerGreen{
+        display: none;
+    }
+
+    /*White Navbar*/
+    .navbar{
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+
+    .navbar a{
+        font-size:0.75em;
+    }
+    
+    .navbar ul li{
+        padding-top: 1em;
+        float:left;
+        margin-right: 15px;
+    }
+
+    .navbar ul{
+        padding-left: 0em;
+    }
+
+    /* Arbeitsbilder*/
     .Arbeit1 img {
         height: 80%;
         width: 100%;
@@ -350,27 +363,18 @@
         width: 100%;
     }
 
-    .boxGreen2 p{
-        font-size: 1em;
-        font-weight: 600;
-        color: black;
-        padding: 1em 1em 1em 1em;
-    }
-
+    /*Vorstellungstext*/
     .boxGreen p{
         padding: 3em 3em 3em 3em;
         font-size: small;
     }
 
-    .navG2 p{
-        
-    }
-
+    /* Karte Umkreis*/
     .leistungen img{
-        
         width: 110%;
     }
 
+    /*Ihre gesuchte Leistung ist nicht aufgeführt?*/
     .header3{
         text-align: center;
         font-size: 100%;
