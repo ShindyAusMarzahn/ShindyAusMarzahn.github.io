@@ -242,6 +242,18 @@
     height: 1.75em;
 }
 
+.navG2 a, .navG2 a:link, .navG2 a:visited{
+    color:wheat;
+    text-decoration: none;
+}
+
+.navG2 a:hover{
+    color:grey;
+    text-decoration: underline;
+}
+
+
+
 .navG2 p{
     padding-left: 43%;
     color: blanchedalmond;
@@ -315,9 +327,11 @@
         display: none !important; 
     }
 
-    .headerGreen{
+    .headerGreen img{
         display: none !important; 
     }
+
+   
 
     .navW{
         display: none !important; 
