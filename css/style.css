@@ -372,6 +372,10 @@
         padding-top: 2em;
     }
 
+    .arbeit{
+        padding-top: 2em;   
+    }
+
     /* Arbeitsbilder*/
     .Arbeit1 img {
         height: 80%;
@@ -406,5 +410,14 @@
         font-weight:bold;
         color:grey;
         padding: 2em 2em 2em 2em;
+    }
+
+    .navG2{
+        background: #002c14;
+        height: 1em;
+    }
+
+    .navG2 p{
+        font-size: x-small;
     }
 }
