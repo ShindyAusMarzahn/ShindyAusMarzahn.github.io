@@ -120,7 +120,6 @@
 .Arbeit1{
     padding-top: 0em;
     background-color: #1c4222;
-   /* --bs-gutter-x: 0rem; */
     border-left-style: solid;
     border-right-style: solid;
     border-top-style: solid;
@@ -144,7 +143,6 @@
 .Arbeit2{
     padding-top: 0em;
     background-color: #1c4222;
-   /* --bs-gutter-x: 0rem; */
     border-left-style: solid;
     border-right-style: solid;
     border-top-style: solid;
@@ -168,7 +166,6 @@
 .Arbeit3{
     padding-top: 0em;
     background-color: #1c4222;
-  /*  --bs-gutter-x: 0rem; */
     border-left-style: solid;
     border-right-style: solid;
     border-top-style: solid;
@@ -341,8 +338,6 @@
     }
     
     .navbar ul li{
-        padding-top: 1em;
-        float:left;
         margin-right: 7px;
         margin-left: 7px;
     }
@@ -405,11 +400,7 @@
 
     /*Ihre gesuchte Leistung ist nicht aufgeführt?*/
     .header3{
-        text-align: center;
         font-size: 100%;
-        font-weight:bold;
-        color:grey;
-        padding: 2em 2em 2em 2em;
     }
 
     .navG2{
