@@ -255,7 +255,7 @@
 
 
 .navG2 p{
-    padding-left: 43%;
+    text-align: center;
     color: blanchedalmond;
     font-weight: 600;
     
@@ -276,7 +276,7 @@
     }
 
     .navG2 p{
-        padding-left: 40%;
+        
     }
 }    
 
@@ -331,8 +331,6 @@
         display: none !important; 
     }
 
-   
-
     .navW{
         display: none !important; 
     }
@@ -365,7 +363,7 @@
     }
 
     .navG2 p{
-        padding-left: 30%;
+        
     }
 
     .leistungen img{
